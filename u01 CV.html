@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+  <title>Arron Reeds CV</title>
+</head>
+<!--TILLGÄNGLIGHET - Tested how my site looks at 200% - It looks good-->
+<body>
+
+  <header>
+  <!--Desktop Nav Bar starts-->
+  <nav id="nav">
+    <div class="nav-bar">
+      <div class="links">
+        <ul>
+          <!--Tillganglighet - Keyboard reader (tab function) hovers over all links-->
+          <!--Tillganglighet - Text changes color when hovered for visual confirmation-->
+          <li><a href="#hero" id="name"><img src="/logo1.png" class="logo" alt="Picture of Arron Reed"></a></li>
+          <li><a href="#aboutme" id="about-me">About Me</a></li>
+          <li><a href="#techblock" id="skills">Skills</a></li>
+          <li><a href="#portfolio" id="projects">Portfolio</a></li>
+          <li><a href="#references" id="reference">References</a></li>
+          <li><a href="#contact" id="contactme">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+  <!--End of Desktop Nav Bar-->
+  <!--Hero Section starts-->
+  <section id="hero">
+    <div class="container">
+      <div class="image-container"></div>
+    </div>
+    <div class="hero-text">
+      <h2>FullStack Developer</h2>
+      <h1>Hi, I'm Arron Reed</h1>
+      <h3>I'm great at making websites....</h3>
+      <h4>and babies too!</h4>
+      <!--Had to joke about me having a baby in my photo....who does that on a CV?-->
+      <div class="hero-button"><a href="#contact" class="hero-button-text">Lets Work Together!</a></div>
+    </div>
+  </section>
+  <!--End of Hero Section-->
+  <!--About Me Section starts-->
+  <section id="aboutme">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <!--TILLGÄNGLIGHET - All images have an alt attribute-->
+          <img class="imgArron" src="/Arron-img.png" alt="Arron Reed">
+        </div>
+        <div class="about-col-2">
+          <h2 class="aboutme">About Me</h2>
+          <br>
+          <p>
+            I am an up and coming FullStack developer with an attraction towards simple clean design and high
+            functionality. I have a highly documented track record in website design, marketing and website growth.
+          </p>
+          <br>
+          <p>
+            I have strong technical skills, excellent social skills, business sense and a sales background, meaning I
+            can contribute to projects and have the ability to communicate with broad spectrum of customers
+          </p>
+          <br>
+          <p>
+            I am eager to be challenged to grow and further improve my IT skills. My biggest passion in life is to use
+            my technical skills to help other people and organisations.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--About Me section ends-->
+  <!--Technology starts-->
+  <section id="techblock">
+    <div class="tech-container">
+      <h2 class="technologies">Technologies I Work With</h2>
+      <p class="technologies1">Here are some of the programs and languages I am comfortable using</p>
+      <div class="techblockimg">
+        <img src="/sass.png" alt="SASS" id="sass">
+        <img src="/html5.png" alt="HTML5" id="html5">
+        <img src="/css3.png" alt="CSS3" id="css3">
+        <img src="/javascript.png" alt="Javascript" id="javascript">
+        <img src="/git.png" alt="Git" id="git">
+        <img src="/Photoshop.png" alt="Photoshop" id="photoshop">
+      </div>
+      <!--Tech block ends-->
+      <!--Mobile Tech Block-->
+      <div class="techblockimg-mobile">
+        <!--TILLGÄNGLIGHET - All images have an alt attribute-->
+        <img src="/sasssm.png" alt="SASS">
+        <img src="/html5sm.png" alt="HTML5">
+        <img src="/css3sm.png" alt="CSS3">
+        <img src="/javascriptsm.png" alt="Javascript">
+        <img src="/gitsm.png" alt="Git">
+        <img src="/Photoshopsm.png" alt="Photoshop">
+      </div>
+      <!--Mobile Tech block ends-->
+    </div>
+  </section>
+  <!--Technology ends-->
+  <!--Portfolio starts-->
+  <section id="portfolio">
+    <div class="container">
+      <h2>Portfolio</h2>
+      <p class="portfolio-text">A sneak peak of some of my previous projects showcasing my skills</p>
+      <div class="portfolio-list">
+        <div class="portfolio-box1">
+          <i class="fa-brands fa-css3-alt"></i>
+          <h3>CSS Gradients</h3>
+          <p>I have learnt how to add the craziest CSS gradients you can think of!</p>
+        </div>
+        <div class="portfolio-box2">
+          <i class="fa-solid fa-video"></i>
+          <h3>Videos</h3>
+          <p>I can embed responsive videos as well.</p>
+          <div class="iframe-container">
+            <iframe width="560" src="https://www.youtube.com/embed/f3mwKLXpOLk" title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="portfolio-box3">
+          <i class="fa-solid fa-table"></i>
+          <h3>Tables</h3>
+          <p>I can make a pretty mean table too!</p>
+          <table class="table-content">
+<!--a11y Checklist - TILLGÄNGLIGHET - Use a caption element to provide a title for a table-->
+            <caption>People who like Ice Cream</caption>
+            <thead>
+              <tr>
+                <th scope="row">Name</th>
+                <th scope="row">Age</th>
+                <th scope="row">Weight</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Jacob</td>
+                <td>35</td>
+                <td>79kg</td>
+              </tr>
+              <tr>
+                <td>James</td>
+                <td>24</td>
+                <td>73kg</td>
+              </tr>
+              <tr>
+                <td>Jessica</td>
+                <td>32</td>
+                <td>66kg</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Portfolio ends-->
+  <!--Timeline starts-->
+  <section id="timeline">
+    <h2>Education &amp; Work Experience</h2>
+    <div class="timeline">
+      <div class="timeline_component">
+        <p class="timeline_date_right">September 5, 2022 - Present</p>
+      </div>
+      <div class="timeline_middle">
+        <div class="timeline_point"></div>
+      </div>
+      <div class="timeline_component">
+        <div class="timeline_content">
+          <h3 class="timeline_heading">FullStack Web Developer - Chas Academy</h3>
+          <p class="timeline_paragraph"></p>
+        </div>
+      </div>
+      <div class="timeline_component">
+        <div class="timeline_content">
+          <h3 class="timeline_heading">DPJ Workspace AB - IT Integration</h3>
+          <p class="timeline_paragraph2">Had the role of a produktägare in a project to connect websites with other in
+            house APIs to automate processes.
+            Eliminated 85% of the daily manual workload in DPJ e-commerce store.</p>
+        </div>
+      </div>
+      <div class="timeline_middle">
+        <div class="timeline_point"></div>
+      </div>
+      <div class="timeline_component">
+        <p class="timeline_date">April 2020 - March 2022</p>
+      </div>
+      <div class="timeline_component">
+        <p class="timeline_date_right">July 2016 - April 2020</p>
+      </div>
+      <div class="timeline_middle">
+        <div class="timeline_point"></div>
+      </div>
+      <div class="timeline_component">
+        <div class="timeline_content">
+          <h3 class="timeline_heading">Huvudansvarig Webbsäljare - Kontorshandel Svenska AB</h3>
+          <p class="timeline_paragraph2">Operated an e-commerce store overseeing every aspect of its operation.
+            Responsibilities included web design, content management, marketing, logistics as well as sourcing products
+          </p>
+        </div>
+      </div>
+      <div class="timeline_component">
+        <div class="timeline_content">
+          <h3 class="timeline_heading">B.Sc, Victoria University, Wellington, NZ</h3>
+          <p class="timeline_paragraph2">Studyed 3 years towards the <em>Bachelor of Science program (B.Sc)</em>
+            majoring in Geology</p>
+        </div>
+      </div>
+      <div class="timeline_middle">
+        <div class="timeline_point"></div>
+      </div>
+      <div class="timeline_component">
+        <p class="timeline_date">January 2001 - December 2003</p>
+      </div>
+      <div class="timeline_component">
+        <p class="timeline_date_right">December, 1999</p>
+      </div>
+      <div class="timeline_middle">
+        <div class="timeline_point"></div>
+        <div class="timeline_point_bottom"></div>
+      </div>
+      <div class="timeline_component_bottom">
+        <div class="timeline_content">
+          <h3 class="timeline_heading">Wanganui High School, Wanganui, NZ</h3>
+          <p class="timeline_paragraph2">Passed 13 years of New Zealand schooling with a <em>Bursary</em> - achieving
+            <em>UE - University Entrance</em>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Timeline ends-->
+  <!--Reference block starts-->
+  <section id="references">
+    <h2>References</h2>
+    <p>Some references from people I have previously worked with</p>
+    <div class="refs">
+      <div class="reference-container">
+        <div class="box">
+          <div class="img-box">
+            <!--TILLGÄNGLIGHET -The alt attribute provides alternative information if a user for some reason cannot view it, or if the user uses a screen reader).-->
+            <img src="/ROsterberg.png" alt="Reference from Robert Österberg">
+          </div>
+          <blockquote>Arron hade en betydande roll, ofta, i att förutse och implementera övergripande webb- och
+            marknadsföringsstrategier. Hans kommunikation var utmärkt och hans idéer var unika och innovativa.
+          </blockquote>
+          <h3>Robert Österberg<br><span>Marketing Director at DPJ Workspace</span></h3>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="/JEklund.png" alt="Reference from Johan Eklund">
+          </div>
+          <blockquote>Arron is the man - we worked together for nearly 3 years. Our projects ran alot smoother when he
+            was involved!
+            Im hoping we get to work together again!</blockquote>
+          <h3>Johan Eklund<br><span>Systemutveklare at Excitec</span></h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Reference block ends-->
+  <!--Contact starts-->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact_block">
+       <!--TILLGÄNGLIGHET - Icons change color on hover and have an ARIA label for text readers-->
+      <a href="https://www.facebook.com/arron.reed.9" aria-label="facebook"><i class="fa-brands fa-facebook-square"></i></a>
+      <a href="https://twitter.com" aria-label="twitter"><i class="fa-brands fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/in/arron-reed-06122b140" aria-label="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="https://github.com/Arron-Reed" aria-label="github"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.youtube.com" aria-label="youtube"><i class="fa-brands fa-youtube"></i></a>
+    </div>
+  </section>
+  <!--Contact ends-->
+  <!--Mobile Nav Bar starts-->
+  <nav id="mobile-nav">
+    <div class="mobile-nav-bar">
+      <div class="links">
+        <ul>
+          <!--TILLGÄNGLIGHET - Icons change color on hover and have an ARIA label for text readers-->
+          <li><a href="#hero" aria-label="home"><i class="fa-solid fa-house"></i></a></li>
+          <li><a href="#aboutme" aria-label="about me"><i class="fa-solid fa-person"></i></a></li>
+          <li><a href="#techblock" aria-label="knowledge"><i class="fa-solid fa-folder"></i></a></li>
+          <li><a href="#portfolio" aria-label="portfolio"><i class="fa-solid fa-business-time"></i></a></li>
+          <li><a href="#references" aria-label="references"><i class="fa-solid fa-user-group"></i></a></li>
+          <li><a href="#contact" aria-label="contact me"><i class="fa-solid fa-address-book"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--End of Mobile Nav Bar-->
+</body>
+
+</html>
